@@ -12,7 +12,9 @@
 
     <div id="detail" class="container mt-lg-5">
         <div id="context">{{$var}}</div>
-        <img id="img" style="width: 25rem"  alt="">
+        <div id="img">
+        </div>
+        
         <p id="desc"></p>
         
         <table class="table table-striped">
