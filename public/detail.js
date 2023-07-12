@@ -18,8 +18,11 @@ fetch(url)
         const q = document.getElementById('q')
         q.textContent = det.skillTalents[2].name
         const nad = document.getElementById('nad')
+        nad.textContent = det.skillTalents[0].description
         const ed = document.getElementById('ed')
+        ed.textContent = det.skillTalents[1].description
         const qd = document.getElementById('qd')
+        qd.textContent = det.skillTalents[2].description
 
         img.src = "https://api.genshin.dev/characters/"+names+"/card"
         image.appendChild(img)
