@@ -27,7 +27,7 @@ fetch(context)
                     link.classList.add('btn')
                     link.classList.add('btn-primary')
                     link.textContent = "READ MORE..."
-                    link.href = "/character/"+chara.name
+                    link.href = "/character/"+element
 
                     card_body.classList.add('card-body')
                     img.classList.add('card-img-top')
@@ -72,7 +72,7 @@ fetch(context)
                     link.classList.add('btn')
                     link.classList.add('btn-primary')
                     link.textContent = "READ MORE..."
-                    link.href = "/artifact/"+chara.name
+                    link.href = "/artifact/"+element
 
                     card_body.classList.add('card-body')
                     img.classList.add('card-img-top')
@@ -118,7 +118,7 @@ fetch(context)
                     link.classList.add('btn')
                     link.classList.add('btn-primary')
                     link.textContent = "READ MORE..."
-                    link.href = "/enemy/"+chara.name
+                    link.href = "/enemies/"+element
 
                     card_body.classList.add('card-body')
                     img.classList.add('card-img-top')
