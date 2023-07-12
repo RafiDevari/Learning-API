@@ -45,7 +45,14 @@ fetch(url)
         }
 
         else if (document.getElementById("jenisnya").textContent=="enemies") {
-            
+            const container = document.getElementById('detailen')
+            const image = document.getElementById('imgsen')
+            const img = document.createElement('img')
+            const dec = document.getElementById('descen')
+            dec.textContent = det.description
+            img.style.width = "24rem"
+            img.src = "https://api.genshin.dev/enemies/"+names+"/portrait"
+            image.appendChild(img)
         }
         
     })
