@@ -31,7 +31,7 @@ fetch(context)
 
                     card_body.classList.add('card-body')
                     img.classList.add('card-img-top')
-                    img.src = "https://api.genshin.dev/characters/"+element+"/card"
+                    img.src = "https://api.genshin.dev/characters/"+element+"/icon-big"
 
                     card.classList.add('card')
                     card.classList.add('mt-lg-5')
@@ -72,7 +72,7 @@ fetch(context)
                     link.classList.add('btn')
                     link.classList.add('btn-primary')
                     link.textContent = "READ MORE..."
-                    link.href = "/artifacts/"+chara.name
+                    link.href = "/artifact/"+chara.name
 
                     card_body.classList.add('card-body')
                     img.classList.add('card-img-top')
@@ -114,15 +114,15 @@ fetch(context)
                     name.classList.add('card-title')
                     name.textContent = chara.name
                     desc.classList.add('card-text')
-                    desc.textContent = context
+                    desc.textContent = chara.description
                     link.classList.add('btn')
                     link.classList.add('btn-primary')
                     link.textContent = "READ MORE..."
-                    link.href = "/character/"+chara.name
+                    link.href = "/enemy/"+chara.name
 
                     card_body.classList.add('card-body')
                     img.classList.add('card-img-top')
-                    img.src = "https://api.genshin.dev/characters/"+element+"/card"
+                    img.src = "https://api.genshin.dev/enemies/"+element+"/icon"
 
                     card.classList.add('card')
                     card.classList.add('mt-lg-5')

@@ -8,7 +8,7 @@ fetch(url)
         const container = document.getElementById('detail')
         const image = document.getElementById('img')
         const img = document.createElement('img')
-        img.style.width = "18rem"
+        img.style.width = "36rem"
         const desc = document.getElementById('desc')
         desc.textContent = det.description
         const na = document.getElementById('na')
@@ -24,7 +24,7 @@ fetch(url)
         const qd = document.getElementById('qd')
         qd.textContent = det.skillTalents[2].description
 
-        img.src = "https://api.genshin.dev/characters/"+names+"/card"
+        img.src = "https://api.genshin.dev/characters/"+names+"/gacha-splash"
         image.appendChild(img)
         
     })
