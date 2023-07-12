@@ -24,7 +24,8 @@ Route::get('/{jenis}', function ($jenis) {
 
 Route::get('/{jenis}/{name}', function ($jenis,$name) {
     $var = $name;
-    return view('detail' , compact('var'));
+    $kind = $jenis;
+    return view('detail' , compact('var','kind'));
 });
 
 Route::get('/', function () {

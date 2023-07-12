@@ -27,7 +27,7 @@ fetch(context)
                     link.classList.add('btn')
                     link.classList.add('btn-primary')
                     link.textContent = "READ MORE..."
-                    link.href = "/character/"+element
+                    link.href = "/characters/"+element
 
                     card_body.classList.add('card-body')
                     img.classList.add('card-img-top')
@@ -72,7 +72,7 @@ fetch(context)
                     link.classList.add('btn')
                     link.classList.add('btn-primary')
                     link.textContent = "READ MORE..."
-                    link.href = "/artifact/"+element
+                    link.href = "/artifacts/"+element
 
                     card_body.classList.add('card-body')
                     img.classList.add('card-img-top')

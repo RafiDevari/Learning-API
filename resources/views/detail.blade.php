@@ -8,10 +8,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 </head>
 <body style="background-color: azure">
-    
-
+    <div id="context">{{$var}}</div>
+    <div id="jenisnya">{{$kind}}</div>
+    @if ($kind=="characters")
     <div id="detail" class="container mt-lg-5">
-        <div id="context">{{$var}}</div>
+        
         <div id="img">
         </div>
         
@@ -41,6 +42,32 @@
         </table>
 
     </div>
+    @endif
+
+    @if ($kind=="artifacts")
+    <div id="detailart" class="container mt-lg-5">
+        
+        <div id="imgs"></div>
+        
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>2-Piece</th>
+                    <th>4-Piece</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                
+                <tr>
+                    <td id="pc2"></td>
+                    <td id="pc4"></td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+    @endif
 
 
     
