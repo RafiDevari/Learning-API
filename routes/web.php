@@ -17,11 +17,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/character', function () {
-    return view('character');
+Route::get('/{jenis}', function ($jenis) {
+    $char=$jenis;
+    return view('character',compact('char'));
 });
 
-Route::get('/character/{name}', function ($name) {
+Route::get('/{jenis}/{name}', function ($jenis,$name) {
     $var = $name;
     return view('detail' , compact('var'));
 });

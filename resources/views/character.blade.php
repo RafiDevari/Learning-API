@@ -9,6 +9,7 @@
 </head>
 <body style="background-color: black">
     
+    <div id="context">{{$char}}</div>
 
     <div id="character" class="container mt-lg-5">
 

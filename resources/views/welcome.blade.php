@@ -11,9 +11,9 @@
     
 
     <div class="container mt-lg-5">
-        <a class="btn btn-light" href="/character">Character</a>
-        <a class="btn btn-light" href="#">Artifact</a>
-        <a class="btn btn-light" href="#">Enemies</a>
+        <a class="btn btn-light" href="/characters">Character</a>
+        <a class="btn btn-light" href="/artifacts">Artifact</a>
+        <a class="btn btn-light" href="/enemies">Enemies</a>
     </div>
     
 
